@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    padding:0px;
+    font-family: 'EB Garamond', serif;
+}
+
+body {
+    background-color: #888887;
+}
+
+p {
+    display: inline;
+}
+
+.card {
+    background-color: #E1E2DE; /*this is of course Patrick Batesman's business card color. *//*"That's bone. And the lettering is something called 'Silian Grail'."*/
+    border: solid #afafadce;
+    align-items: center;
+    vertical-align: center;
+    margin-bottom: 5px;
+}
+
+.choiceBox{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%
+}
+
+.choiceBox .reqImage:hover{
+    border: solid #6b1111 1px;
+}
+
+.confirmButton {
+    border-radius: 50%;
+    width: 35px;
+    text-align: center;
+    border: solid black 2px;
+}
+
+.confirmButton:hover {
+    border: solid #6b1111 2px;
+}
+
+.conName {
+    margin-left: 12px;
+}
+
+.conLine {
+    display: flex;
+    justify-content: left;
+    margin: 3px 0px;
+    margin-bottom: 5px;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.conInfoPane {
+    text-emphasis: bold;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.friendImg {
+    width: 40px;
+    margin-right: 13px;
+}
+
+.headline {
+    background-color: #5A5A59;
+    color: #E1E2DE;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+}
+
+.img {
+    width: 15px;
+}
+
+.infoPane {
+    padding: 5px;
+    padding-left: 25px;
+}
+
+.input {
+    text-align: center;
+}
+
+.inputField {
+    visibility: hidden;
+}
+
+.link {
+    color: #2B78E4;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mainCont {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 55px 55px 0px;
+}
+
+.navBar {
+    background-color: #2B2B2B;
+    color: #A2A2A2;
+    display: flex;
+    font-weight: bold;
+    padding: 20px 15px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.navBtn {
+    flex: 1;
+    margin-right: 15px;
+    background-color: #2B2B2B;
+    border: solid rgb(37, 37, 37);
+    color: #A2A2A2;
+    box-shadow: 1px 1px black;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navBtn:hover {
+background-color: #6b1111;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #A2A2A2;
+    flex: 1;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.navLink:hover{
+    color: #FFFFFF;
+}
+
+.navLinkCont {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 0%;
+    flex: 1;
+}
+
+.navTitle {
+    font-weight: bolder;
+    color: #FFFFFF;
+    flex: 1;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.number {
+    background-color: #E1E2DE;
+    color: #5A5A59;
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: solid 1px #afafadce;
+}
+
+.reqImage {
+    width: 20px;
+    height: 20px;
+    border: black 1px solid;
+    border-radius: 50%;
+}
+
+.reqImage, .conReqName {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.requestLine {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 3px 0px;
+    margin-bottom: 5px;
+}
+
+.title {
+    background-color: #5A5A59;
+    height: 80px;
+}
+
+.viewMoreLink {
+    display: flex;
+    justify-content: center;
+    border-top: solid #afafadce;
+}
+
+.viewMoreLink a {
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+}
+
+.viewMoreLink a:hover {
+    text-decoration: underline;
+}
+
+#belts {
+    font-weight: lighter;
+}
+
+#col1 {
+    width: 400px;
+    padding-left: 8%;
+}
+
+#col2 {
+    width: 250px;
+    padding-right: 8%;
+}
+
+#dates {
+    color: #646464;
+    margin-bottom: 2px;
+}
+
+#friendImage {
+    width: 40px;
+}
+
+#gearIcon {
+    width: 8px;
+}
+
+#locIcon {
+    width: 10px;
+}
+
+#name {
+    margin-top: 23px;
+}
+
+#profilePic {
+    width: 85px;
+    position: relative;
+    top: 30px;
+    left: 25px;
+    border: solid 1px black;
+    border-radius: 50%;
+}
+
+#reqNum {
+    height: 25px;
+    width: 25px;
+}
+
+#school {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.headline .number {
+    height: 20px;
+    width: 40px;
+}
+
+#conHeadline {
+    justify-content: space-evenly;
+}

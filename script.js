@@ -5,7 +5,6 @@ var conLine2 = document.getElementById("rickS");
 var conPane = document.getElementById("connectionReqInfoPane")
 var userName = document.getElementById("name")
 
-
 var uName = "Sean Caylor"
 var requestNumber = 2;
 var conNumber = 513;
@@ -68,4 +67,11 @@ function promptODissapearo(){
     }
 }
 
+function userNameValidation(){   
+    if (document.getElementById("newName").value.length < 1){
+        window.alert("User Name cannot be blank");
+    } else{
+        nameOChango()
+    }
+}
 rewrite();
